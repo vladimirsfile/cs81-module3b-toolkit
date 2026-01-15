@@ -15,3 +15,18 @@ function square(num) {
 let num = 7;
 output = square(num);
 console.log(output);
+
+// Function that returns only the even numbers
+let listEven = [];
+
+function isEven(numbers) {
+    for (let number of numbers) {
+        if (number % 2 === 0) {
+            listEven.push(number);
+        }
+    }
+    return listEven;
+}
+let numbers = [7, 33, 26, 0, 71, 28, 4];
+
+console.log(isEven(numbers))
