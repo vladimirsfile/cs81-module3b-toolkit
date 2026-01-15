@@ -44,3 +44,11 @@ function isOdd(nums) {
 }
 nums = [77, 14, 99, 2344, 3433, 55, 9];
 console.log(isOdd(nums));
+
+// The function outputs the multiplication of 3 numbers
+function multiply(a, b, c) {
+    return `The result is ${a * b *c}`;
+}
+let a = 7;
+let b = 2;
+let c = 3;
