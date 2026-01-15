@@ -30,3 +30,17 @@ function isEven(numbers) {
 let numbers = [7, 33, 26, 0, 71, 28, 4];
 
 console.log(isEven(numbers))
+
+// Function that ouputs the odd numbers from a list 
+listOdd = [];
+
+function isOdd(nums) {
+    for (num of nums) {
+        if (num % 2 !== 0) {
+            listOdd.push(num);
+        }
+    }
+    return listOdd;
+}
+nums = [77, 14, 99, 2344, 3433, 55, 9];
+console.log(isOdd(nums));
