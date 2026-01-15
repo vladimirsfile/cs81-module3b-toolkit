@@ -52,3 +52,5 @@ function multiply(a, b, c) {
 let a = 7;
 let b = 2;
 let c = 3;
+
+console.log(multiply(a, b, c));
