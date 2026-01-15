@@ -1,5 +1,5 @@
 function double(n) {
-    return n + n;
+    return `The doube of ${n} is ${n + n}`;
 }
 let n = 22;
 result = double(n);
